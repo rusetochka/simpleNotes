@@ -8,15 +8,30 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-community/datetimepicker": "github:react-native-community/datetimepicker",
+    "@react-native-picker/picker": "^2.1.0",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/elements": "^1.2.1",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
     "expo": "~42.0.1",
+    "expo-blur": "^9.0.3",
     "expo-status-bar": "~1.0.4",
+    "moment": "^2.29.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-vector-icons": "^8.1.0",
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0"
+    "@babel/core": "^7.9.0",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^12.0.4",
+    "jest": "^27.3.1"
   },
   "private": true
 }
